@@ -23,3 +23,11 @@ a.read-more:hover { background-color: #be3523; border-radius: 3px 3px 3px 3px; t
     margin-right: 150px;
     margin-left: 80px;
 }
+
+
+img {
+    min-width:42px;
+    width: 4%;
+}
+
+<img align="right"> 

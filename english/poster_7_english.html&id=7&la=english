@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<html>
+<head>
+<title>Krapperup</title>
+<link rel="stylesheet" type="text/css" href="../posters_style.css">
+<script src="../myscripts.js"></script> 
+</head>
+<body>
+<div align="right"><script> document.body.appendChild(image).align="Right";</script></div>
+
+
+<h1><script> document.write(num);</script>. Title for poster</h1>
+
+<p>Text for poster</p>
+
+
+<a href="../index.html">Home</a>  &emsp;&emsp;
+<script> document.write(previousText);</script> |
+<script> document.write(previousless2);</script> |
+<script> document.write(previousless1);</script> |
+<script> document.write(previous);</script> |
+<script> document.write(num);</script> |
+<script> document.write(next);</script> |
+<script> document.write(nextplus1);</script> |
+<script> document.write(nextplus2);</script> |
+<script> document.write(nextText);</script> 
+
