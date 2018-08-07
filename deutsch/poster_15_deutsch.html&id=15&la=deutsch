@@ -1,4 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//DE">
+<html lang="de">
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
 <html>
 <head>
 <title>Krapperup</title>
@@ -8,12 +10,12 @@
 <body>
 <div align="right"><script> document.body.appendChild(image).align="Right";</script></div>
 
-<h1><script> document.write(num);</script>. Heading for poster two --- The german version</h1>
+<h1><script> document.write(num);</script>. Überschrift für Poster</h1>
 
-<p>Text in German for poster two.  </p>
+<p>Text für Poster.</p>
 
 
-<a href="../index.html">Home</a>  &emsp;&emsp;
+<script> document.write(homeLink);</script>  &emsp;&emsp;
 <script> document.write(previousText);</script> |
 <script> document.write(previousless2);</script> |
 <script> document.write(previousless1);</script> |
@@ -22,4 +24,4 @@
 <script> document.write(next);</script> |
 <script> document.write(nextplus1);</script> |
 <script> document.write(nextplus2);</script> |
-<script> document.write(nextText);</script> |
+<script> document.write(nextText);</script> 

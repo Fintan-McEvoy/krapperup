@@ -118,6 +118,7 @@ if (language=="deutsch"){
 	var homeLink = "<a href='../index.html'>Startseite</a>"
 	var previousText = "<a href='./poster_"+previousNum+"_"+language+".html&id="+previousNum+"&la="+language+"'>Zur&#252;ck</a>";
 	var nextText= "<a href='./poster_"+nextNum+"_"+language+".html&id="+nextNum+"&la="+language+"'>Weiter</a>";
+	//var nextText= nextText.fontsize(5);
 }
 
 
