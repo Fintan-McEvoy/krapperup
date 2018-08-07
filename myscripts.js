@@ -92,7 +92,7 @@ if (language!= "english"){
 		image.src = '../flags/GBsq.png';
 		image.style.align = "right";
 		image.onclick = function(){
-			window.location.href ="../english/poster_"+num+"_english.html&id="+num+"&la=english";
+			window.location.href ="../english/poster_"+num+"_english.html?id="+num+"&la=english";
 		};
 };
 
@@ -102,7 +102,7 @@ if (language!= "deutsch"){
 		image.src = '../flags/DEsq.png';
 		image.style.align = "right";
 		image.onclick = function(){
-			window.location.href ="../deutsch/poster_"+num+"_deutsch.html&id="+num+"&la=deutsch";
+			window.location.href ="../deutsch/poster_"+num+"_deutsch.html?id="+num+"&la=deutsch";
 		};
 };
 
@@ -110,14 +110,14 @@ if (language!= "deutsch"){
 
 if (language=="english"){
 	var homeLink = "<a href='../index.html'>Home</a>"
-	var previousText = "<a href='./poster_"+previousNum+"_"+language+".html&id="+previousNum+"&la="+language+"'>Previous</a>";
-	var nextText= "<a href='./poster_"+nextNum+"_"+language+".html&id="+nextNum+"&la="+language+"'>Next</a>";
+	var previousText = "<a href='./poster_"+previousNum+"_"+language+".html?id="+previousNum+"&la="+language+"'>Previous</a>";
+	var nextText= "<a href='./poster_"+nextNum+"_"+language+".html?id="+nextNum+"&la="+language+"'>Next</a>";
 }
 
 if (language=="deutsch"){
 	var homeLink = "<a href='../index.html'>Startseite</a>"
-	var previousText = "<a href='./poster_"+previousNum+"_"+language+".html&id="+previousNum+"&la="+language+"'>Zur&#252;ck</a>";
-	var nextText= "<a href='./poster_"+nextNum+"_"+language+".html&id="+nextNum+"&la="+language+"'>Weiter</a>";
+	var previousText = "<a href='./poster_"+previousNum+"_"+language+".html?id="+previousNum+"&la="+language+"'>Zur&#252;ck</a>";
+	var nextText= "<a href='./poster_"+nextNum+"_"+language+".html?id="+nextNum+"&la="+language+"'>Weiter</a>";
 	//var nextText= nextText.fontsize(5);
 }
 
@@ -125,12 +125,12 @@ if (language=="deutsch"){
 
 //Setting the numerical links for previous and next pages
 
-var nextplus2= "<a href='./poster_"+nextNumPlus2+"_"+language+".html&id="+nextNumPlus2+"&la="+language+"'><script>document.write(nextNumPlus2)</script></a>";
-var nextplus1= "<a href='./poster_"+nextNumPlus1+"_"+language+".html&id="+nextNumPlus1+"&la="+language+"'><script>document.write(nextNumPlus1)</script></a>";
-var next= "<a href='./poster_"+nextNum+"_"+language+".html&id="+nextNum+"&la="+language+"'><script>document.write(nextNum)</script></a>";
-var previous= "<a href='./poster_"+previousNum+"_"+language+".html&id="+previousNum+"&la="+language+"'><script>document.write(previousNum)</script></a>";
-var previousless1= "<a href='./poster_"+previousNumLess1+"_"+language+".html&id="+previousNumLess1+"&la="+language+"'><script>document.write(previousNumLess1)</script></a>";
-var previousless2= "<a href='./poster_"+previousNumLess2+"_"+language+".html&id="+previousNumLess2+"&la="+language+"'><script>document.write(previousNumLess2)</script></a>";
+var nextplus2= "<a href='./poster_"+nextNumPlus2+"_"+language+".html?id="+nextNumPlus2+"&la="+language+"'><script>document.write(nextNumPlus2)</script></a>";
+var nextplus1= "<a href='./poster_"+nextNumPlus1+"_"+language+".html?id="+nextNumPlus1+"&la="+language+"'><script>document.write(nextNumPlus1)</script></a>";
+var next= "<a href='./poster_"+nextNum+"_"+language+".html?id="+nextNum+"&la="+language+"'><script>document.write(nextNum)</script></a>";
+var previous= "<a href='./poster_"+previousNum+"_"+language+".html?id="+previousNum+"&la="+language+"'><script>document.write(previousNum)</script></a>";
+var previousless1= "<a href='./poster_"+previousNumLess1+"_"+language+".html?id="+previousNumLess1+"&la="+language+"'><script>document.write(previousNumLess1)</script></a>";
+var previousless2= "<a href='./poster_"+previousNumLess2+"_"+language+".html?id="+previousNumLess2+"&la="+language+"'><script>document.write(previousNumLess2)</script></a>";
 
 var first= "<a href='./poster_"+1+"_"+language+".html"+"'>First</a>";
 var last= "<a href='./poster_"+totalPosters+"_"+language+".html"+"'>Last</a>";
